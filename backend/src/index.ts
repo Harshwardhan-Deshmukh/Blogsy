@@ -2,7 +2,6 @@ import { Hono } from "hono";
 import { getPrisma } from "./utils";
 import { decode, sign, verify } from "hono/jwt";
 import { cors } from "hono/cors";
-import { PrismaClient } from "@prisma/client/extension";
 
 type Bindings = {
   DATABASE_URL: string;
