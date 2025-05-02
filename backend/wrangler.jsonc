@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "backend-blogsy",
   "main": "src/index.ts",
-  "compatibility_date": "2025-04-29",
+  "compatibility_date": "2025-04-24",
   "vars": {
     "DATABASE_URL": "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNWQxYmUyNDctN2M0My00Y2RiLTlhZDAtMTcxZGEwYTA3OTY3IiwidGVuYW50X2lkIjoiNTY2NjM4YjMyM2I3ODZhMjQ5MTIzNTgzN2M5YjlhNTUxODBkMThjODc2MzRlYTZiZGIzYWY0OGNhYzkyMjViZSIsImludGVybmFsX3NlY3JldCI6IjA4YWYwYWJjLTg0NTgtNDYxMi1iNTY3LTdmYWFmZjM0MzI3MiJ9.3WsJJq7aSqotUn9QLIXyH7Jp2IFmYrBi6bltsc5cNl4",
     "JWT_SECRET": "912385902ufiojkldjfajflkndoilakjdfao9dhjkalnfklagnlkamdl.kamr934iut6924jkm"

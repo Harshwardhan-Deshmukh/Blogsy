@@ -8,11 +8,12 @@
   "dependencies": {
     "@prisma/client": "^6.7.0",
     "@prisma/extension-accelerate": "^1.3.0",
-    "hono": "^4.7.8",
-    "prisma": "^6.7.0"
+    "@harshwardhanet7007/blogsy-types": "^1.0.2",
+    "hono": "^4.7.8"
   },
   "devDependencies": {
     "@types/node": "^22.15.3",
+    "prisma": "^6.7.0",
     "wrangler": "^4.4.0"
   }
 }
