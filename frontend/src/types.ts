@@ -1,3 +1,5 @@
+import { ChangeEvent } from "react"
+
 export type QuotePropsType = {
     testimonial: string
     name: string
@@ -8,5 +10,5 @@ export type QuotePropsType = {
 export type LabelledInputType = {
     label: string;
     type: string;
-    onChangeFunction: any
+    onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 }
